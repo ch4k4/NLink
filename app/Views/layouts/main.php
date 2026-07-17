@@ -283,6 +283,12 @@
                     <a href="/nerslink/health" class="nav-link <?= ($currentPage ?? '') === 'health' ? 'active' : '' ?>">❤️ Health</a>
                 </li>
                 <li class="nav-item">
+                    <a href="/nerslink/admin/migrations" class="nav-link <?= ($currentPage ?? '') === 'migrations' ? 'active' : '' ?>">🔧 Migrations</a>
+                </li>
+                <li class="nav-item" style="border-top: 1px solid rgba(255,255,255,0.1); margin: 10px 0; padding-top: 10px;">
+                    <small style="padding-left: 20px; opacity: 0.6; font-size: 0.75rem;">MODULES</small>
+                </li>
+                <li class="nav-item">
                     <a href="#" class="nav-link">🏥 Organizations</a>
                 </li>
                 <li class="nav-item">

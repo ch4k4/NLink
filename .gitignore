@@ -1,34 +1,22 @@
 ```
-# Environment variables
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-# Dependencies
-vendor/
-composer.lock
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# IDE files
+# Editors
 .vscode/
 .idea/
 
-# OS files
-.DS_Store
-Thumbs.db
-
 # Build artifacts
-dist/
 build/
-target/
-
-# PHP specific
-*.php~
-*.php.bak
+dist/
 ```
